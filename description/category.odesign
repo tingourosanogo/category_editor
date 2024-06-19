@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description:Group xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:description="http://www.eclipse.org/sirius/description/1.1.0" xmlns:description_1="http://www.eclipse.org/sirius/diagram/description/1.1.0" xmlns:style="http://www.eclipse.org/sirius/diagram/description/style/1.1.0" xmlns:tool="http://www.eclipse.org/sirius/diagram/description/tool/1.1.0" xmlns:tool_1="http://www.eclipse.org/sirius/description/tool/1.1.0" name="category" version="15.4.0.202401051836">
+  <ownedViewpoints name="MyViewpoint">
+    <ownedJavaExtensions qualifiedClassName="my.category.project.design.Services"/>
+  </ownedViewpoints>
+  <ownedViewpoints name="ct" label="Category Viewpoint" modelFileExtension="category">
+    <ownedRepresentations xsi:type="description_1:DiagramDescription" name="category_diagram" label="Category Diagram" domainClass="category::Category" enablePopupBars="true">
+      <metamodel href="http://www.editorCT.org/category#/"/>
+      <defaultLayer name="Default">
+        <nodeMappings name="id_Simple" label="Simple" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Simple">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Set" label="Set" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Set">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Product" label="Product" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Product">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Terminal" label="Terminal" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Terminal">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Equalizer" label="Equalizer" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Equalizer">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Pullback" label="Pullback" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Pullback">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Generallimit" label="Generallimit" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Generallimit">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Coproduct" label="Coproduct" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Coproduct">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Initial" label="Initial" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Initial">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" showIcon="false" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Coequalizer" label="Coequalizer" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Coequalizer">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Pushout" label="Pushout" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Pushout">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Generalcolimit" label="Generalcolimit" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Generalcolimit">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <nodeMappings name="id_Category" label="Category" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" domainClass="category::Category">
+          <style xsi:type="style:EllipseNodeDescription" labelSize="12" labelPosition="node" resizeKind="NSEW" horizontalDiameterComputationExpression="10" verticalDiameterComputationExpression="6">
+            <borderColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            <color xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+          </style>
+        </nodeMappings>
+        <edgeMappings name="id_Morphism" label="Morphism" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Morphism" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Monomorphism" label="Monomorphism" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Monomorphism" useDomainElement="true">
+          <style sourceArrow="OutputArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Epimorphism" label="Epimorphism" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Epimorphism" useDomainElement="true">
+          <style targetArrow="InputArrowWithDot" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Isomorphism" label="Isomorphism" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Isomorphism" useDomainElement="true">
+          <style sourceArrow="InputArrow" sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_ID" label="ID" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::ID" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Functor" label="Functor" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Category']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Category']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Functor" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Composition" label="Composition" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Composition" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Naturaltranformation" label="Naturaltranformation" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Functor']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Functor']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Naturaltranformation" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false" labelExpression="aql:self.name">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <edgeMappings name="id_Endofunctor" label="Endofunctor" deletionDescription="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='remove']" labelDirectEdit="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@toolSections.2/@ownedTools[name='rename']" semanticCandidatesExpression="feature:arrow" sourceMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Category']" targetMapping="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Category']" targetFinderExpression="[codomain/]" sourceFinderExpression="[domain/]" domainClass="category::Endofunctor" useDomainElement="true">
+          <style sizeComputationExpression="2">
+            <strokeColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='gray']"/>
+            <centerLabelStyleDescription labelSize="12" showIcon="false">
+              <labelFormat>italic</labelFormat>
+              <labelColor xsi:type="description:SystemColor" href="environment:/viewpoint#//@systemColors/@entries[name='black']"/>
+            </centerLabelStyleDescription>
+          </style>
+        </edgeMappings>
+        <toolSections name="toolObject" label="Object">
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_SimpleObject" label="Simple Object" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Simple']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Simple" referenceName="object" variableName="newSimple">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                  <subModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                    <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.ID" referenceName="arrow" variableName="newID">
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="['id'+newSimple.name/]"/>
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="domain" valueExpression="var:newSimple"/>
+                      <subModelOperations xsi:type="tool_1:SetValue" featureName="codomain" valueExpression="var:newSimple"/>
+                    </subModelOperations>
+                  </subModelOperations>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_Set" label="Set" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Set']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Set" referenceName="object">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_Product" label="Product" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Product']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Product" referenceName="object">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_Coproduc" label="Coproduct" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Coproduct']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Coproduct" referenceName="object">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_Terminal" label="Terminal" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Terminal']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Terminal" referenceName="object">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:NodeCreationDescription" name="Create_Initial" label="Initial" nodeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@nodeMappings[name='id_Initial']">
+            <variable name="container"/>
+            <viewVariable name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[container/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Initial" referenceName="object">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="toolArrow" label="Arrow">
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create_Morphism" label="Morphism" edgeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Morphism']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Morphism" referenceName="arrow">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="domain" valueExpression="[source/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="codomain" valueExpression="[target/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create_Monomorphism" label="Monomorphism" edgeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Monomorphism']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Monomorphism" referenceName="arrow">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="domain" valueExpression="[source/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="codomain" valueExpression="[target/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create_Epimorphism" label="Epimorphism" edgeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Epimorphism']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Epimorphism" referenceName="arrow">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="domain" valueExpression="[source/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="codomain" valueExpression="[target/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:EdgeCreationDescription" name="Create_Isomorphism" label="Isomorphism" edgeMappings="//@ownedViewpoints[name='ct']/@ownedRepresentations[name='category_diagram']/@defaultLayer/@edgeMappings[name='id_Isomorphism']">
+            <sourceVariable name="source"/>
+            <targetVariable name="target"/>
+            <sourceViewVariable name="sourceView"/>
+            <targetViewVariable name="targetView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[source.eContainer()/]">
+                <subModelOperations xsi:type="tool_1:CreateInstance" typeName="category.Isomorphism" referenceName="arrow">
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="domain" valueExpression="[source/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="codomain" valueExpression="[target/]"/>
+                  <subModelOperations xsi:type="tool_1:SetValue" featureName="name"/>
+                </subModelOperations>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+        <toolSections name="otherTools" label="Other tools">
+          <ownedTools xsi:type="tool:DirectEditLabel" name="rename" label="Rename">
+            <mask mask="{0}"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[self/]">
+                <subModelOperations xsi:type="tool_1:SetValue" featureName="name" valueExpression="[arg0/]"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+          <ownedTools xsi:type="tool:DeleteElementDescription" name="remove" label="Remove">
+            <element name="element"/>
+            <elementView name="elementView"/>
+            <containerView name="containerView"/>
+            <initialOperation>
+              <firstModelOperations xsi:type="tool_1:ChangeContext" browseExpression="[element/]">
+                <subModelOperations xsi:type="tool_1:RemoveElement"/>
+              </firstModelOperations>
+            </initialOperation>
+          </ownedTools>
+        </toolSections>
+      </defaultLayer>
+    </ownedRepresentations>
+  </ownedViewpoints>
+</description:Group>
